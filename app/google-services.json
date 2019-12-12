@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951628581495",
+    "firebase_url": "https://magazine-c50c2.firebaseio.com",
+    "project_id": "magazine-c50c2",
+    "storage_bucket": "magazine-c50c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951628581495:android:2d3f1e769e372d4b895472",
+        "android_client_info": {
+          "package_name": "com.example.magazine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951628581495-oaj7i7sr0ks78ktofqp9fme0ndsgfqui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.magazine",
+            "certificate_hash": "060d269a9f97753852790b8588e71e616029c1b6"
+          }
+        },
+        {
+          "client_id": "951628581495-jf7t54b4oikqcfvksu2147ujogtnr1h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiqEsQjuy1oFwfDTf-YhA4_nvore_SD3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951628581495-jf7t54b4oikqcfvksu2147ujogtnr1h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
