@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            if (email1.getText() == null && password1.getText() ==null){
-                Toast.makeText(MainActivity.this, "Authentication failed.",
+            if (email1.getText().toString().isEmpty() && password1.getText().toString().isEmpty()){
+                Toast.makeText(MainActivity.this, "Username and Password is Required",
                         Toast.LENGTH_SHORT).show();
             }else {
                 SU(email1.getText().toString(),password1.getText().toString());
@@ -84,8 +84,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (email1.getText() == null && password1.getText() ==null){
-                    Toast.makeText(MainActivity.this, "Authentication failed.",
+                if (email1.getText().toString().isEmpty()  && password1.getText().toString().isEmpty() ){
+                    Toast.makeText(MainActivity.this, "Username and Password is Required",
                             Toast.LENGTH_SHORT).show();
                 }else {
                     SU(email1.getText().toString(),password1.getText().toString());
