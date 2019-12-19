@@ -13,13 +13,12 @@
     tools:context=".userpage">
 
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Griot"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="0dp"
-            tools:ignore="MissingConstraints"></EditText>
+            android:textSize="30dp"
+            tools:ignore="MissingConstraints"></TextView>
 
         <Button
             android:id="@+id/logout"
@@ -39,56 +38,17 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="554dp"
+            android:layout_height="650dp"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
 
-            app:layout_constraintBottom_toTopOf="@+id/button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logout"
-            app:layout_constraintVertical_bias="1.0"
-            tools:listitem="@layout/array" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edit_input"
-            android:text="Back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logout"
+            app:layout_constraintVertical_bias="0.513"
+            tools:listitem="@layout/array" />
 
-        </Button>
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="97dp"
-            tools:layout_editor_absoluteY="612dp"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="215dp"
-            tools:layout_editor_absoluteY="610dp"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            tools:layout_editor_absoluteX="323dp"
-            tools:layout_editor_absoluteY="612dp"
-            tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
